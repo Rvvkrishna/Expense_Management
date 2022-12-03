@@ -1,7 +1,7 @@
 function getnupdate() {
     var add = document.querySelector("button");
     console.log("success");
-    var tit = document.getElementById("details").value;
+    var tit = document.getElementById("details").value
     var desc = document.getElementById("spent").value;
     console.log(tit, desc);
     if (localStorage.getItem('itemsJson') == null) { 
