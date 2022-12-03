@@ -5,7 +5,7 @@ function getnupdate() {
     var desc = document.getElementById("spent").value;
     console.log(tit, desc);
     if (localStorage.getItem('itemsJson') == null) { 
-        var itemsJsonArray = [];
+        var itemsJsonArray = []
         var object={
             title:tit,
             description:desc,
