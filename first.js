@@ -9,6 +9,7 @@ function getnupdate() {
         var object={
             title:tit,
             description:desc,
+            
         };
         itemsJsonArray.push(object);
         localStorage.setItem('itemsJson', JSON.stringify(itemsJsonArray));
