@@ -12,6 +12,7 @@ function getnupdate() {
         };
         itemsJsonArray.push(object);
         localStorage.setItem('itemsJson', JSON.stringify(itemsJsonArray));
+        
     }
     else {
         itemJsonStr = localStorage.getItem('itemsJson');
